@@ -17,9 +17,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.timelessfusionapps.smartTalk</string>
 	<key>PROJECT_ID</key>
-	<string>chat-app-6c19b</string>
+	<string>chatfluttertest-ac615</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chat-app-6c19b.appspot.com</string>
+	<string>chatfluttertest-ac615.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>

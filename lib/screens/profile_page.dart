@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:country_code_picker/country_code_picker.dart';
+import 'package:country_picker/country_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
@@ -66,7 +66,7 @@ class _ProfilePageState extends State<ProfilePage> {
     XFile? pickedFile = await imagePicker
         .pickImage(source: ImageSource.gallery)
         .catchError((onError) {
-      Fluttertoast.showToast(msg: onError.toString())
+      Fluttertoast.showToast(msg: onError.toString());
     });
     File? image;
     if (pickedFile != null) {
@@ -240,25 +240,6 @@ class _ProfilePageState extends State<ProfilePage> {
                             fontWeight: FontWeight.bold,
                             color: AppColors.spaceCadet,
                           ),),
-                          Container(
-                            width: double.infinity,
-                            alignment: Alignment.centerLeft,
-                            decoration: BoxDecoration(
-                              border: Border.all(color: Colors.black, width: 1.5),
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                            child: CountryCodePicker(
-                              onChanged: (country) {
-                                setState(() {
-                                  dialCodeDigits = country.dialCode!;
-                                });
-                              },
-                              initialSelection: 'IN',
-                              showCountryOnly: false,
-                              showOnlyCountryWhenClosed: false,
-                              favorite: const ["+1", "US", "+91", "IN"],
-                            ),
-                          ),
                           vertical15,
                           const Text('Phone Number', style: TextStyle(
                             fontStyle: FontStyle.italic,
