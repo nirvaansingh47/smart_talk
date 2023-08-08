@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>343659267573-nvd2pnliseno31mispk86c0ucd9t17j3.apps.googleusercontent.com</string>
+	<string>420085289541-duk95536qoaf0sc3hhga1nqbqu8hek47.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.343659267573-nvd2pnliseno31mispk86c0ucd9t17j3</string>
+	<string>com.googleusercontent.apps.420085289541-duk95536qoaf0sc3hhga1nqbqu8hek47</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>343659267573-csgbk46f43ipnk3n696ov38hvegbujfb.apps.googleusercontent.com</string>
+	<string>420085289541-6k99q3kkt4r3v44bpev13qc12718il26.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyARr2xbLUGJbjEZbSoLgLwHAjfiSglOViU</string>
+	<string>AIzaSyCL7HARcALRzxOBkgVXDdYhKsFSBDuSgQU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>343659267573</string>
+	<string>420085289541</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.timelessfusionapps.smartTalk</string>
+	<string>com.example.testchatapp</string>
 	<key>PROJECT_ID</key>
 	<string>chatfluttertest-ac615</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:343659267573:ios:ed5c277cb2556a3e698cbc</string>
+	<string>1:420085289541:ios:418ffb95a768608f88892c</string>
 </dict>
 </plist>

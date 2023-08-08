@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "420085289541-6k99q3kkt4r3v44bpev13qc12718il26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testchatapp",
+            "certificate_hash": "ddb1f0e8aa1f7c00c07be8245fc85818b1b0692e"
+          }
+        },
+        {
           "client_id": "420085289541-k5h4b757082kioth2hoqkf82gnkq84rb.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -31,10 +39,10 @@
               "client_type": 3
             },
             {
-              "client_id": "420085289541-duk95536qoaf0sc3hhga1nqbqu8hek47.apps.googleusercontent.com",
+              "client_id": "420085289541-6es3hdmugtu5vk1aod2v2diesh53v79e.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.testchatapp"
+                "bundle_id": "com.timelessfusionapps.smartTalk"
               }
             }
           ]
@@ -67,10 +75,10 @@
               "client_type": 3
             },
             {
-              "client_id": "420085289541-duk95536qoaf0sc3hhga1nqbqu8hek47.apps.googleusercontent.com",
+              "client_id": "420085289541-6es3hdmugtu5vk1aod2v2diesh53v79e.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.testchatapp"
+                "bundle_id": "com.timelessfusionapps.smartTalk"
               }
             }
           ]
